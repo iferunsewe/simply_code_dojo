@@ -1,6 +1,6 @@
 # Fallout Hacking Mini-Game
 
-The popular video games Fallout 3 and Fallout: New Vegas have a computer "hacking" minigame where the player must correctly guess the correct password from a list of same-length words. Your challenge is to implement this game yourself.
+The popular video game series Fallout has a computer "hacking" minigame where the player must correctly guess the correct password from a list of same-length words. Your challenge is to implement this game yourself.
 
 The game operates similarly to the classic board game Mastermind. The player has only 4 guesses and on each incorrect guess the computer will indicate how many letter positions are correct.
 
@@ -31,6 +31,6 @@ Guess (2 left)? croppers
 You win!
 ```
 
-You can draw words from our favorite dictionary file: enable1.txt. Your program should completely ignore case when making the position checks.
+You can draw words from the included `wordlist.txt`. Your program should completely ignore case when making the position checks.
 
 There may be ways to increase the difficulty of the game, perhaps even making it impossible to guarantee a solution, based on your particular selection of words. For example, your program could supply words that have little letter position overlap so that guesses reveal as little information to the player as possible.
