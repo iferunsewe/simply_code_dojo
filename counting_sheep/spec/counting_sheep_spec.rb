@@ -29,4 +29,18 @@ describe CountingSheep do
     end
   end
 
+  describe '#load' do
+    it 'converts file into an array' do
+      expect(subject.load('spec/list.txt')).to be_instance_of(Array)
+    end
+
+    it 'creates a list entry for each line in the file' do
+      expect(subject.load('spec/list.txt').count).to eq 3
+    end
+
+    it 'converts list items into integers' do
+      expect(subject.load('spec/list.txt')).to eq [0, 1, 2]
+    end
+  end
+
 end
