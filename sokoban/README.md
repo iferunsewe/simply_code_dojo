@@ -1,4 +1,4 @@
-#Sokoban
+# Sokoban
 
 Ruby isn't the only good thing to come out of Japan. The computer game Sokoban, invented by Hiroyuki Imabayashi, was introduced by Thinking Rabbit of Takarazuka, Japan in 1982. This simple game of logic puzzles was an instant success. It won awards and spawned sequels. Over the years, Sokoban has been ported to a huge number of platforms. Fan support remains strong and many of those fans even produce new levels for the game.
 
