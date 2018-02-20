@@ -1,5 +1,9 @@
 # Summary
 
+## How to run program
+
+`ruby lib/move_me.rb`
+
 The task is to navigate Herman ze German around Berlin and output his final coordinates and direction.
 
 ## Input:
